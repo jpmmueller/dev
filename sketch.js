@@ -39,7 +39,7 @@ function draw() {
         y += stepSize;
         break;
     }
-
+    console.log(state);
     if ( step % numSteps == 0){
       state = (state + 1) % 4;
       turnCounter++;
